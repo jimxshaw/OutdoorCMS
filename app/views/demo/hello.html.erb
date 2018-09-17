@@ -17,3 +17,15 @@
 <br/>
 
 <%= link_to("Index page", {:action => 'index'}) %>
+
+<br/>
+
+ID: <%= @id %>
+
+<br/>
+
+Page: <%= @page %>
+
+<br/>
+
+Next page: <%= @page.to_i + 1 %>
