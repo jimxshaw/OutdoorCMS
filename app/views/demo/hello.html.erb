@@ -1,1 +1,19 @@
 <h1>Hello Rails from Hello!</h1>
+
+<%= 2 + 8 %>
+
+<br/>
+
+<% target = "globe" %>
+<%= "Hello #{target}" %>
+
+<br/>
+
+<% @array.each do |n| %>
+    <%= n %>
+    <br/>
+<% end %>
+
+<br/>
+
+<%= link_to("Index page", {:action => 'index'}) %>
